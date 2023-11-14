@@ -253,6 +253,7 @@ function M.open_window(files, callerInstance, callerBuffer)
 	colSeparator = " " .. styleOptions["seperator"] .. " "
 	newFileIndicator = styleOptions["newFileIndicator"]
 	border = styleOptions["border"]
+	shortcut_chars = otherInstance.getOptions()["shortcut_chars"]
 
 	keybindings = otherInstance.getOptions()["keybindings"]
 
